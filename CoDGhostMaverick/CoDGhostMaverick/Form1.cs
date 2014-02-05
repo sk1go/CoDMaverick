@@ -860,12 +860,12 @@ namespace CoDGhostMaverick
             {
                 if (ghost.ProcHandle("iw6mp64_ship"))
                 {
-                    //byte[] ch = BitConverter.GetBytes(0x2F75);
-                    //byte[] ch1 = new byte[2];
-                    //ch1[0] = ch[0];
-                    //ch1[1] = ch[1];
-                    //ghost.WriteBytes(squadmember.check1, ch1);
-                    ghost.WriteByte(squadmember.check1,BitConverter.GetBytes(0x75));
+                    byte[] ch = BitConverter.GetBytes(0x2F75);
+                    byte[] ch1 = new byte[2];
+                    ch1[0] = ch[0];
+                    ch1[1] = ch[1];
+                    ghost.WriteBytes(squadmember.check1, ch1);
+                    //ghost.WriteByte(squadmember.check1,BitConverter.GetBytes(0x75));
                     patched = true;
                 }
             }
