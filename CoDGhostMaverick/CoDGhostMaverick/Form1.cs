@@ -611,7 +611,7 @@ namespace CoDGhostMaverick
                     long first_LO1camo10 = 0x1444EB050;
 
                     long first_LO1_2ndCamo = 0x1444E815A;
-                    long first_LO1_2ndWeapon = 0x1444E8160;
+                    long first_LO1_2ndWeapon = 0x1444E7FE0;
 
                     long offset_out = 0x564; //offset between squadmembers
                     long offset_in_sm = 0x80; //offset inside of squadmember
@@ -1998,31 +1998,410 @@ namespace CoDGhostMaverick
             }
             else { return; }
         }
-
+        List<string> PrimaryWeapon = new List<string> { "35", "36", "37", "38", "39", "40", "42", "43", "44", "45", "46", "47",
+        "48","49","52","53","54","55","56","58","59","60","61","62","63","64","65","66","67","68","70"};
         private void set_weapon_pic(byte[] buf1, byte[] buf2)
         {
-
+            int id1 = BitConverter.ToInt16(buf1, 0);
+            int id2 = BitConverter.ToInt16(buf2, 0);
         }
+
         private void set_weapon_camo(int sm_num)
         {
             if (ghost.ProcHandle("iw6mp64_ship"))
             {
                 if (sm_num == 1)
                 {
-                    //byte[] buf = ghost.ReadBytes(squadmember.sm01_LO1_Weapon,1);
-                    ////set_weapon_pic
-                    ////comboBox2.Text = comboBox2.Items[0].ToString();
-                    //buf = ghost.ReadBytes(squadmember.sm01_LOName2, 15);
-                    //comboBox2.Items.Add(get_name(buf));
-                    //buf = ghost.ReadBytes(squadmember.sm01_LOName3, 15);
-                    //comboBox2.Items.Add(get_name(buf));
-                    //buf = ghost.ReadBytes(squadmember.sm01_LOName4, 15);
-                    //comboBox2.Items.Add(get_name(buf));
-                    //buf = ghost.ReadBytes(squadmember.sm01_LOName5, 15);
-                    //comboBox2.Items.Add(get_name(buf));
-                    //buf = ghost.ReadBytes(squadmember.sm01_LOName6, 15);
-                    //comboBox2.Items.Add(get_name(buf));
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm01_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm01_LO1_2ndWeapon, 2);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm01_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm01_LO2_2ndWeapon, 2);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm01_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm01_LO3_2ndWeapon, 2);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm01_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm01_LO4_2ndWeapon, 2);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm01_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm01_LO5_2ndWeapon, 2);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm01_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm01_LO6_2ndWeapon, 2);
+                        set_weapon_pic(buf1, buf2);
+                    }
                 }
+                if (sm_num == 2)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+                if (sm_num == 3)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+
+                if (sm_num == 4)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+                if (sm_num == 5)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+                if (sm_num == 6)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+                if (sm_num == 7)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+                if (sm_num == 8)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+                if (sm_num == 9)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+                if (sm_num == 10)
+                {
+                    if (comboBox2.SelectedIndex == 0)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO1_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO1_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 1)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO2_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO2_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 2)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO3_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO3_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 3)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO4_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO4_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 4)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO5_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO5_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                    if (comboBox2.SelectedIndex == 5)
+                    {
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO6_Weapon, 1);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO6_2ndWeapon, 1);
+                        set_weapon_pic(buf1, buf2);
+                    }
+                }
+
             }
         }
     }
