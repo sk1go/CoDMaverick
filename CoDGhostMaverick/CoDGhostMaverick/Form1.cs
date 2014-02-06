@@ -1502,19 +1502,19 @@ namespace CoDGhostMaverick
         {
             if (radioButton3.Checked)
             {
-                if (radioButton4.Checked)
-                {
+                //if (radioButton4.Checked)
+                //{
                     pictureBox6.Image = pic;
                     ldt.camo = num;
-                }
-                else
-                {
-                    if (radioButton5.Checked)
-                    {
+                //}
+                //else
+                //{
+                //    if (radioButton5.Checked)
+                //    {
                         pictureBox7.Image = pic;
                         ldt.secondcamo = num;
-                    }
-                }
+                //    }
+                //}
             }
             else
             {
@@ -1533,8 +1533,7 @@ namespace CoDGhostMaverick
             pictureBox1.Image = (Image)Properties.Resources.maverick_ar;
             pictureBox2.Image = null;
             pictureBox3.Image = null;
-            ldt.weapon = 87;
-            ldt.secondcamo = 0;
+            ldt.weapon = 87;         
             groupBox2.Visible = true;
             groupBox3.Visible = false;
             reset_attachments();
@@ -1545,7 +1544,6 @@ namespace CoDGhostMaverick
             pictureBox2.Image = null;
             pictureBox3.Image = null;
             ldt.weapon = 89;
-            ldt.secondcamo = 0;
             groupBox2.Visible = false;
             groupBox3.Visible = true;
             groupBox3.Location = new Point(12,151);
@@ -1647,6 +1645,7 @@ namespace CoDGhostMaverick
             Attachments(10, "m2", button23.BackgroundImage);
         }
         #endregion
+
         #region camo buttons
         private void button24_Click(object sender, EventArgs e)
         {
@@ -1950,13 +1949,21 @@ namespace CoDGhostMaverick
             {
                 if (radioButton3.Checked)
                 {
-                    int val = Convert.ToInt16(ldt.camo);
-                    byte[] buf = BitConverter.GetBytes(val);
-                    ghost.WriteByte(camo, buf);
-
-                    val = Convert.ToInt16(ldt.secondcamo);
-                    buf = BitConverter.GetBytes(val);
-                    ghost.WriteByte(scndcamo, buf);
+                    //if (radioButton4.Checked)
+                    //{
+                        int val = Convert.ToInt16(ldt.camo);
+                        byte[] buf = BitConverter.GetBytes(val);
+                        ghost.WriteByte(camo, buf);
+                    //}
+                    //else
+                    //{
+                    //    if (radioButton5.Checked)
+                    //    {
+                            val = Convert.ToInt16(ldt.secondcamo);
+                            buf = BitConverter.GetBytes(val);
+                            ghost.WriteByte(scndcamo, buf);
+                    //    }
+                    //}
                 }
                 else
                 {
@@ -2052,14 +2059,311 @@ namespace CoDGhostMaverick
             //pictureBox6 = 1
             //pictureBox7 = 2
             Image img;
-            if (picturebox == 1)
-            { }
-            else
-            {
-                if (picturebox == 2)
-                { 
-                }
+            switch (id)
+            { 
+                case 0:
+                    img = button24.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 1:
+                    img = button25.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 2:
+                    img = button26.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 3:
+                    img = button29.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 4:
+                    img = button28.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 5:
+                    img = button27.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 6:
+                    img = button32.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 7:
+                    img = button31.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 8:
+                    img = button30.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 9:
+                    img = button35.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 10:
+                    img = button34.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 11:
+                    img = button33.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 12:
+                    img = button38.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 13:
+                    img = button37.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 14:
+                    img = button36.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 15:
+                    img = button41.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 18:
+                    img = button40.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 19:
+                    img = button39.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 20:
+                    img = button44.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 21:
+                    img = button43.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 23:
+                    img = button42.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 24:
+                    img = button47.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 25:
+                    img = button46.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 26:
+                    img = button45.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 27:
+                    img = button50.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 28:
+                    img = button49.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 29:
+                    img = button48.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 30:
+                    img = button53.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 31:
+                    img = button52.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
+                case 32:
+                    img = button51.BackgroundImage;
+                    if (picturebox == 1)
+                    { pictureBox6.Image = img; }
+                    else
+                    {
+                        if (picturebox == 2)
+                        { pictureBox7.Image = img; }
+                    }
+                    break;
             }
+
+            
         }
 
         private void set_weapon_pic(byte[] buf1, byte[] buf2, byte[] buf3, byte[] buf4)
@@ -2071,7 +2375,7 @@ namespace CoDGhostMaverick
                 radioButton4.Enabled = true;
                 pictureBox5.Image = (Image)Properties.Resources.ResourceManager.GetObject(id1.ToString());
                 int picid1 = BitConverter.ToInt16(buf3, 0);
-
+                showcamo(picid1, 1);
             }
             else
             {
@@ -2086,6 +2390,7 @@ namespace CoDGhostMaverick
                 radioButton5.Enabled = true;
                 pictureBox8.Image = (Image)Properties.Resources.ResourceManager.GetObject(id2.ToString());
                 int picid2 = BitConverter.ToInt16(buf4, 0);
+                showcamo(picid2, 2);
             }
             else
             {
