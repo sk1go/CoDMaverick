@@ -243,6 +243,37 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4c96165b43204485761d7e79ca209a5ba4b644ec.ico" />
+    <None Include="Resources\70.png" />
+    <None Include="Resources\68.png" />
+    <None Include="Resources\67.png" />
+    <None Include="Resources\66.png" />
+    <None Include="Resources\65.png" />
+    <None Include="Resources\64.png" />
+    <None Include="Resources\63.png" />
+    <None Include="Resources\62.png" />
+    <None Include="Resources\61.png" />
+    <None Include="Resources\60.png" />
+    <None Include="Resources\59.png" />
+    <None Include="Resources\58.png" />
+    <None Include="Resources\56.png" />
+    <None Include="Resources\55.png" />
+    <None Include="Resources\54.png" />
+    <None Include="Resources\53.png" />
+    <None Include="Resources\52.png" />
+    <None Include="Resources\49.png" />
+    <None Include="Resources\48.png" />
+    <None Include="Resources\47.png" />
+    <None Include="Resources\46.png" />
+    <None Include="Resources\45.png" />
+    <None Include="Resources\44.png" />
+    <None Include="Resources\43.png" />
+    <None Include="Resources\42.png" />
+    <None Include="Resources\40.png" />
+    <None Include="Resources\39.png" />
+    <None Include="Resources\38.png" />
+    <None Include="Resources\37.png" />
+    <None Include="Resources\36.png" />
+    <None Include="Resources\35.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

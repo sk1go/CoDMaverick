@@ -170,6 +170,77 @@ namespace CoDGhostMaverick
             public long sm10_LO4_Weapon;
             public long sm10_LO5_Weapon;
             public long sm10_LO6_Weapon;
+            //2nd weapons
+            public long sm01_LO1_2ndWeapon;
+            public long sm01_LO2_2ndWeapon;
+            public long sm01_LO3_2ndWeapon;
+            public long sm01_LO4_2ndWeapon;
+            public long sm01_LO5_2ndWeapon;
+            public long sm01_LO6_2ndWeapon;
+
+            public long sm02_LO1_2ndWeapon;
+            public long sm02_LO2_2ndWeapon;
+            public long sm02_LO3_2ndWeapon;
+            public long sm02_LO4_2ndWeapon;
+            public long sm02_LO5_2ndWeapon;
+            public long sm02_LO6_2ndWeapon;
+
+            public long sm03_LO1_2ndWeapon;
+            public long sm03_LO2_2ndWeapon;
+            public long sm03_LO3_2ndWeapon;
+            public long sm03_LO4_2ndWeapon;
+            public long sm03_LO5_2ndWeapon;
+            public long sm03_LO6_2ndWeapon;
+
+            public long sm04_LO1_2ndWeapon;
+            public long sm04_LO2_2ndWeapon;
+            public long sm04_LO3_2ndWeapon;
+            public long sm04_LO4_2ndWeapon;
+            public long sm04_LO5_2ndWeapon;
+            public long sm04_LO6_2ndWeapon;
+
+            public long sm05_LO1_2ndWeapon;
+            public long sm05_LO2_2ndWeapon;
+            public long sm05_LO3_2ndWeapon;
+            public long sm05_LO4_2ndWeapon;
+            public long sm05_LO5_2ndWeapon;
+            public long sm05_LO6_2ndWeapon;
+
+            public long sm06_LO1_2ndWeapon;
+            public long sm06_LO2_2ndWeapon;
+            public long sm06_LO3_2ndWeapon;
+            public long sm06_LO4_2ndWeapon;
+            public long sm06_LO5_2ndWeapon;
+            public long sm06_LO6_2ndWeapon;
+
+            public long sm07_LO1_2ndWeapon;
+            public long sm07_LO2_2ndWeapon;
+            public long sm07_LO3_2ndWeapon;
+            public long sm07_LO4_2ndWeapon;
+            public long sm07_LO5_2ndWeapon;
+            public long sm07_LO6_2ndWeapon;
+
+            public long sm08_LO1_2ndWeapon;
+            public long sm08_LO2_2ndWeapon;
+            public long sm08_LO3_2ndWeapon;
+            public long sm08_LO4_2ndWeapon;
+            public long sm08_LO5_2ndWeapon;
+            public long sm08_LO6_2ndWeapon;
+
+            public long sm09_LO1_2ndWeapon;
+            public long sm09_LO2_2ndWeapon;
+            public long sm09_LO3_2ndWeapon;
+            public long sm09_LO4_2ndWeapon;
+            public long sm09_LO5_2ndWeapon;
+            public long sm09_LO6_2ndWeapon;
+
+            public long sm10_LO1_2ndWeapon;
+            public long sm10_LO2_2ndWeapon;
+            public long sm10_LO3_2ndWeapon;
+            public long sm10_LO4_2ndWeapon;
+            public long sm10_LO5_2ndWeapon;
+            public long sm10_LO6_2ndWeapon;
+
             //weapon 1st attachment
             public long sm01_LO1_Weapon_at1;
             public long sm01_LO2_Weapon_at1;
@@ -540,6 +611,7 @@ namespace CoDGhostMaverick
                     long first_LO1camo10 = 0x1444EB050;
 
                     long first_LO1_2ndCamo = 0x1444E815A;
+                    long first_LO1_2ndWeapon = 0x1444E8160;
 
                     long offset_out = 0x564; //offset between squadmembers
                     long offset_in_sm = 0x80; //offset inside of squadmember
@@ -701,6 +773,79 @@ namespace CoDGhostMaverick
                     squadmember.sm10_LO4_Weapon = squadmember.sm10_LO3_Weapon + offset_in_sm;
                     squadmember.sm10_LO5_Weapon = squadmember.sm10_LO4_Weapon + offset_in_sm;
                     squadmember.sm10_LO6_Weapon = squadmember.sm10_LO5_Weapon + offset_in_sm;
+                    #endregion
+                    #region 2nd weapon
+                    // 2nd weapon
+                    squadmember.sm01_LO1_2ndWeapon = first_LO1_2ndWeapon;
+                    squadmember.sm01_LO2_2ndWeapon = squadmember.sm01_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm01_LO3_2ndWeapon = squadmember.sm01_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm01_LO4_2ndWeapon = squadmember.sm01_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm01_LO5_2ndWeapon = squadmember.sm01_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm01_LO6_2ndWeapon = squadmember.sm01_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm02_LO1_2ndWeapon = squadmember.sm01_LO1_2ndWeapon + offset_out;
+                    squadmember.sm02_LO2_2ndWeapon = squadmember.sm02_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm02_LO3_2ndWeapon = squadmember.sm02_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm02_LO4_2ndWeapon = squadmember.sm02_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm02_LO5_2ndWeapon = squadmember.sm02_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm02_LO6_2ndWeapon = squadmember.sm02_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm03_LO1_2ndWeapon = squadmember.sm02_LO1_2ndWeapon + offset_out;
+                    squadmember.sm03_LO2_2ndWeapon = squadmember.sm03_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm03_LO3_2ndWeapon = squadmember.sm03_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm03_LO4_2ndWeapon = squadmember.sm03_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm03_LO5_2ndWeapon = squadmember.sm03_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm03_LO6_2ndWeapon = squadmember.sm03_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm04_LO1_2ndWeapon = squadmember.sm03_LO1_2ndWeapon + offset_out;
+                    squadmember.sm04_LO2_2ndWeapon = squadmember.sm04_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm04_LO3_2ndWeapon = squadmember.sm04_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm04_LO4_2ndWeapon = squadmember.sm04_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm04_LO5_2ndWeapon = squadmember.sm04_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm04_LO6_2ndWeapon = squadmember.sm04_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm05_LO1_2ndWeapon = squadmember.sm04_LO1_2ndWeapon + offset_out;
+                    squadmember.sm05_LO2_2ndWeapon = squadmember.sm05_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm05_LO3_2ndWeapon = squadmember.sm05_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm05_LO4_2ndWeapon = squadmember.sm05_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm05_LO5_2ndWeapon = squadmember.sm05_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm05_LO6_2ndWeapon = squadmember.sm05_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm06_LO1_2ndWeapon = squadmember.sm05_LO1_2ndWeapon + offset_out;
+                    squadmember.sm06_LO2_2ndWeapon = squadmember.sm06_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm06_LO3_2ndWeapon = squadmember.sm06_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm06_LO4_2ndWeapon = squadmember.sm06_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm06_LO5_2ndWeapon = squadmember.sm06_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm06_LO6_2ndWeapon = squadmember.sm06_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm07_LO1_2ndWeapon = squadmember.sm06_LO1_2ndWeapon + offset_out;
+                    squadmember.sm07_LO2_2ndWeapon = squadmember.sm07_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm07_LO3_2ndWeapon = squadmember.sm07_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm07_LO4_2ndWeapon = squadmember.sm07_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm07_LO5_2ndWeapon = squadmember.sm07_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm07_LO6_2ndWeapon = squadmember.sm07_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm08_LO1_2ndWeapon = squadmember.sm07_LO1_2ndWeapon + offset_out;
+                    squadmember.sm08_LO2_2ndWeapon = squadmember.sm08_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm08_LO3_2ndWeapon = squadmember.sm08_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm08_LO4_2ndWeapon = squadmember.sm08_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm08_LO5_2ndWeapon = squadmember.sm08_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm08_LO6_2ndWeapon = squadmember.sm08_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm09_LO1_2ndWeapon = squadmember.sm08_LO1_2ndWeapon + offset_out;
+                    squadmember.sm09_LO2_2ndWeapon = squadmember.sm09_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm09_LO3_2ndWeapon = squadmember.sm09_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm09_LO4_2ndWeapon = squadmember.sm09_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm09_LO5_2ndWeapon = squadmember.sm09_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm09_LO6_2ndWeapon = squadmember.sm09_LO5_2ndWeapon + offset_in_sm;
+
+                    squadmember.sm10_LO1_2ndWeapon = squadmember.sm09_LO1_2ndWeapon + offset_out;
+                    squadmember.sm10_LO2_2ndWeapon = squadmember.sm10_LO1_2ndWeapon + offset_in_sm;
+                    squadmember.sm10_LO3_2ndWeapon = squadmember.sm10_LO2_2ndWeapon + offset_in_sm;
+                    squadmember.sm10_LO4_2ndWeapon = squadmember.sm10_LO3_2ndWeapon + offset_in_sm;
+                    squadmember.sm10_LO5_2ndWeapon = squadmember.sm10_LO4_2ndWeapon + offset_in_sm;
+                    squadmember.sm10_LO6_2ndWeapon = squadmember.sm10_LO5_2ndWeapon + offset_in_sm;
+
                     #endregion
                     #region 1stattachment
                     //1st attachment
@@ -992,18 +1137,18 @@ namespace CoDGhostMaverick
 
                     #endregion
                     XmlSerializer x = new XmlSerializer(squadmember.GetType());
-                    StreamWriter file = new StreamWriter("addresses.xml");
+                    StreamWriter file = new StreamWriter("maverick_addresses.xml");
                     x.Serialize(file, squadmember);
                     file.Close();
                 }
-                catch { MessageBox.Show("Can not creat file addresses.sml "); }
+                catch { MessageBox.Show("Can not creat file maverick_addresses.sml "); }
             }
             else
             {
                 try
                 {
                     XmlSerializer x = new XmlSerializer(squadmember.GetType());
-                    StreamReader file = new StreamReader("addresses.xml");
+                    StreamReader file = new StreamReader("maverick_addresses.xml");
                     squadmember = (memadr)x.Deserialize(file);
                 }
                 catch { MessageBox.Show("Can not deserialise addresses.xml"); }
@@ -1279,7 +1424,7 @@ namespace CoDGhostMaverick
                 ldt.fstat = 15;
                 ldt.scndat = 15;
                 ldt.camo = 0;
-
+                ldt.secondcamo = 0;
                 memcheck();
             }
         }
@@ -1370,6 +1515,7 @@ namespace CoDGhostMaverick
             pictureBox2.Image = null;
             pictureBox3.Image = null;
             ldt.weapon = 87;
+            ldt.secondcamo = 0;
             groupBox2.Visible = true;
             groupBox3.Visible = false;
             reset_attachments();
@@ -1380,6 +1526,7 @@ namespace CoDGhostMaverick
             pictureBox2.Image = null;
             pictureBox3.Image = null;
             ldt.weapon = 89;
+            ldt.secondcamo = 0;
             groupBox2.Visible = false;
             groupBox3.Visible = true;
             groupBox3.Location = new Point(12,151);
@@ -1604,10 +1751,6 @@ namespace CoDGhostMaverick
         }
         #endregion
 
-
-
-
-
         private void button56_Click(object sender, EventArgs e)
         {
             label1.Text = "sq_mem = " + ldt.sq_mem.ToString() + "\r\n ldout = " + ldt.ldout + "\r\n weapon = " + ldt.weapon + "\r\n 1st attachment = " + ldt.fstat + "\r\n 2nd attachment = " + ldt.scndat + "\r\n camo = " + ldt.camo;
@@ -1819,8 +1962,8 @@ namespace CoDGhostMaverick
                 pictureBox2.Image = null;
                 pictureBox3.Image = null;
                 pictureBox4.Image = null;
-                groupBox2.Enabled = false;
-                groupBox3.Enabled = false;
+                groupBox2.Visible = false;
+                groupBox3.Visible = false;
                 button55.Enabled = false;
                 button54.Text = "Set camo to weapon ";
                 weapon_camo(); 
@@ -1831,8 +1974,8 @@ namespace CoDGhostMaverick
                 pictureBox2.Image = null;
                 pictureBox3.Image = null;
                 pictureBox4.Image = null;
-                groupBox2.Enabled = true;
-                groupBox3.Enabled = true;
+                groupBox2.Visible = true;
+                groupBox3.Visible = true;
                 button55.Enabled = true;
                 button54.Text = "Give weapon to soldier";
             }
@@ -1842,14 +1985,45 @@ namespace CoDGhostMaverick
         {
             if (radioButton3.Checked)
             {
-                //load current weapon
+                if (comboBox1.SelectedIndex == 0) { set_weapon_camo(1); };
+                if (comboBox1.SelectedIndex == 1) { set_weapon_camo(2); };
+                if (comboBox1.SelectedIndex == 2) { set_weapon_camo(3); };
+                if (comboBox1.SelectedIndex == 3) { set_weapon_camo(4); };
+                if (comboBox1.SelectedIndex == 4) { set_weapon_camo(5); };
+                if (comboBox1.SelectedIndex == 5) { set_weapon_camo(6); };
+                if (comboBox1.SelectedIndex == 6) { set_weapon_camo(7); };
+                if (comboBox1.SelectedIndex == 7) { set_weapon_camo(8); };
+                if (comboBox1.SelectedIndex == 8) { set_weapon_camo(9); };
+                if (comboBox1.SelectedIndex == 9) { set_weapon_camo(10); };
             }
             else { return; }
         }
 
-        private void set_weapon_camo()
+        private void set_weapon_pic(byte[] buf1, byte[] buf2)
         {
 
+        }
+        private void set_weapon_camo(int sm_num)
+        {
+            if (ghost.ProcHandle("iw6mp64_ship"))
+            {
+                if (sm_num == 1)
+                {
+                    //byte[] buf = ghost.ReadBytes(squadmember.sm01_LO1_Weapon,1);
+                    ////set_weapon_pic
+                    ////comboBox2.Text = comboBox2.Items[0].ToString();
+                    //buf = ghost.ReadBytes(squadmember.sm01_LOName2, 15);
+                    //comboBox2.Items.Add(get_name(buf));
+                    //buf = ghost.ReadBytes(squadmember.sm01_LOName3, 15);
+                    //comboBox2.Items.Add(get_name(buf));
+                    //buf = ghost.ReadBytes(squadmember.sm01_LOName4, 15);
+                    //comboBox2.Items.Add(get_name(buf));
+                    //buf = ghost.ReadBytes(squadmember.sm01_LOName5, 15);
+                    //comboBox2.Items.Add(get_name(buf));
+                    //buf = ghost.ReadBytes(squadmember.sm01_LOName6, 15);
+                    //comboBox2.Items.Add(get_name(buf));
+                }
+            }
         }
     }
 }
