@@ -32,6 +32,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -140,7 +141,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(6, 46);
+            this.comboBox2.Location = new System.Drawing.Point(6, 58);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(181, 26);
             this.comboBox2.TabIndex = 1;
@@ -148,20 +149,32 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.Location = new System.Drawing.Point(210, 12);
+            this.groupBox1.Location = new System.Drawing.Point(222, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(183, 75);
+            this.groupBox1.Size = new System.Drawing.Size(219, 90);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select a weapon";
             // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(7, 61);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(202, 22);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "I just want to change camo";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(7, 46);
+            this.radioButton2.Location = new System.Drawing.Point(7, 40);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(157, 22);
             this.radioButton2.TabIndex = 1;
@@ -419,9 +432,9 @@
             this.groupBox3.Controls.Add(this.groupBox12);
             this.groupBox3.Controls.Add(this.groupBox11);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox3.Location = new System.Drawing.Point(891, 146);
+            this.groupBox3.Location = new System.Drawing.Point(941, 159);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(339, 353);
+            this.groupBox3.Size = new System.Drawing.Size(331, 391);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             // 
@@ -431,9 +444,9 @@
             this.groupBox10.Controls.Add(this.button18);
             this.groupBox10.Controls.Add(this.button19);
             this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox10.Location = new System.Drawing.Point(6, 23);
+            this.groupBox10.Location = new System.Drawing.Point(6, 11);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(328, 106);
+            this.groupBox10.Size = new System.Drawing.Size(315, 124);
             this.groupBox10.TabIndex = 44;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Sights";
@@ -441,7 +454,7 @@
             // button17
             // 
             this.button17.BackgroundImage = global::CoDGhostMaverick.Properties.Resources._0;
-            this.button17.Location = new System.Drawing.Point(70, 16);
+            this.button17.Location = new System.Drawing.Point(36, 30);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(78, 78);
             this.button17.TabIndex = 10;
@@ -451,7 +464,7 @@
             // button18
             // 
             this.button18.BackgroundImage = global::CoDGhostMaverick.Properties.Resources._24;
-            this.button18.Location = new System.Drawing.Point(154, 16);
+            this.button18.Location = new System.Drawing.Point(122, 30);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(78, 78);
             this.button18.TabIndex = 11;
@@ -461,7 +474,7 @@
             // button19
             // 
             this.button19.BackgroundImage = global::CoDGhostMaverick.Properties.Resources._26;
-            this.button19.Location = new System.Drawing.Point(238, 16);
+            this.button19.Location = new System.Drawing.Point(206, 30);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(78, 78);
             this.button19.TabIndex = 12;
@@ -473,9 +486,9 @@
             this.groupBox12.Controls.Add(this.button23);
             this.groupBox12.Controls.Add(this.button22);
             this.groupBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox12.Location = new System.Drawing.Point(6, 241);
+            this.groupBox12.Location = new System.Drawing.Point(6, 261);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(328, 100);
+            this.groupBox12.Size = new System.Drawing.Size(315, 106);
             this.groupBox12.TabIndex = 46;
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Mod";
@@ -483,7 +496,7 @@
             // button23
             // 
             this.button23.BackgroundImage = global::CoDGhostMaverick.Properties.Resources._10;
-            this.button23.Location = new System.Drawing.Point(154, 16);
+            this.button23.Location = new System.Drawing.Point(122, 17);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(78, 78);
             this.button23.TabIndex = 16;
@@ -493,7 +506,7 @@
             // button22
             // 
             this.button22.BackgroundImage = global::CoDGhostMaverick.Properties.Resources._27;
-            this.button22.Location = new System.Drawing.Point(70, 16);
+            this.button22.Location = new System.Drawing.Point(38, 17);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(78, 78);
             this.button22.TabIndex = 15;
@@ -505,9 +518,9 @@
             this.groupBox11.Controls.Add(this.button20);
             this.groupBox11.Controls.Add(this.button21);
             this.groupBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox11.Location = new System.Drawing.Point(6, 135);
+            this.groupBox11.Location = new System.Drawing.Point(6, 141);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(328, 100);
+            this.groupBox11.Size = new System.Drawing.Size(315, 117);
             this.groupBox11.TabIndex = 45;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Barrel";
@@ -515,7 +528,7 @@
             // button20
             // 
             this.button20.BackgroundImage = global::CoDGhostMaverick.Properties.Resources._22;
-            this.button20.Location = new System.Drawing.Point(70, 16);
+            this.button20.Location = new System.Drawing.Point(38, 26);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(78, 78);
             this.button20.TabIndex = 13;
@@ -525,7 +538,7 @@
             // button21
             // 
             this.button21.BackgroundImage = global::CoDGhostMaverick.Properties.Resources._3;
-            this.button21.Location = new System.Drawing.Point(154, 16);
+            this.button21.Location = new System.Drawing.Point(122, 26);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(78, 78);
             this.button21.TabIndex = 14;
@@ -878,14 +891,14 @@
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox5.Location = new System.Drawing.Point(12, 11);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(198, 76);
+            this.groupBox5.Size = new System.Drawing.Size(198, 91);
             this.groupBox5.TabIndex = 36;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Select a soldier";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(435, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(460, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(193, 78);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -894,7 +907,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(435, 93);
+            this.pictureBox2.Location = new System.Drawing.Point(460, 93);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(60, 60);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -903,7 +916,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(502, 93);
+            this.pictureBox3.Location = new System.Drawing.Point(527, 93);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 60);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -912,7 +925,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(568, 93);
+            this.pictureBox4.Location = new System.Drawing.Point(593, 93);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(60, 60);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -943,9 +956,9 @@
             // button55
             // 
             this.button55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button55.Location = new System.Drawing.Point(210, 108);
+            this.button55.Location = new System.Drawing.Point(222, 108);
             this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(183, 37);
+            this.button55.Size = new System.Drawing.Size(219, 37);
             this.button55.TabIndex = 43;
             this.button55.Text = "Reset attachments";
             this.button55.UseVisualStyleBackColor = true;
@@ -1002,11 +1015,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 741);
+            this.ClientSize = new System.Drawing.Size(829, 741);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button58);
             this.Controls.Add(this.button57);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.button56);
             this.Controls.Add(this.button55);
             this.Controls.Add(this.label8);
@@ -1017,7 +1031,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -1131,6 +1144,7 @@
         private System.Windows.Forms.Button button57;
         private System.Windows.Forms.Button button58;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RadioButton radioButton3;
     }
 }
 
