@@ -170,6 +170,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "I just want to change camo";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -1015,7 +1016,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(829, 741);
+            this.ClientSize = new System.Drawing.Size(834, 741);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button58);
             this.Controls.Add(this.button57);

@@ -1131,11 +1131,13 @@ namespace CoDGhostMaverick
         {
             change_cmbox2();
             ldt.sq_mem = comboBox1.SelectedIndex+1;
+            weapon_camo();
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             ldt.ldout = comboBox2.SelectedIndex+1;
+            weapon_camo();
         }
 
         private void Attachments(int num, string type, Image img)
@@ -1651,7 +1653,46 @@ namespace CoDGhostMaverick
             fix_mem();
             memcheck();
         }
-       
 
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton3.Checked) 
+            {
+                pictureBox1.Image = null;
+                pictureBox2.Image = null;
+                pictureBox3.Image = null;
+                pictureBox4.Image = null;
+                groupBox2.Enabled = false;
+                groupBox3.Enabled = false;
+                button55.Enabled = false;
+                button54.Text = "Set camo to weapon ";
+                weapon_camo(); 
+            }
+            else 
+            {
+                pictureBox1.Image = null;
+                pictureBox2.Image = null;
+                pictureBox3.Image = null;
+                pictureBox4.Image = null;
+                groupBox2.Enabled = true;
+                groupBox3.Enabled = true;
+                button55.Enabled = true;
+                button54.Text = "Give weapon to soldier";
+            }
+        }
+
+        private void weapon_camo()
+        {
+            if (radioButton3.Checked)
+            {
+                //load current weapon
+            }
+            else { return; }
+        }
+
+        private void set_weapon_camo()
+        {
+
+        }
     }
 }
