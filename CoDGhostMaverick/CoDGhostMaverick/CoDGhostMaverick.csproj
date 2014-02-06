@@ -243,6 +243,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="4c96165b43204485761d7e79ca209a5ba4b644ec.ico" />
+    <None Include="Resources\89.png" />
+    <None Include="Resources\87.png" />
     <None Include="Resources\70.png" />
     <None Include="Resources\68.png" />
     <None Include="Resources\67.png" />

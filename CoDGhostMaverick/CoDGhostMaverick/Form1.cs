@@ -610,7 +610,7 @@ namespace CoDGhostMaverick
                     long first_LO1camo9 = 0x1444EAAEC;
                     long first_LO1camo10 = 0x1444EB050;
 
-                    long first_LO1_2ndCamo = 0x1444E815A;
+                    long first_LO1_2ndCamo = 0x1444E7FDA;
                     long first_LO1_2ndWeapon = 0x1444E7FE0;
 
                     long offset_out = 0x564; //offset between squadmembers
@@ -639,63 +639,63 @@ namespace CoDGhostMaverick
                     squadmember.sm01_LOName5 = squadmember.sm01_LOName4 + offset_in_sm;
                     squadmember.sm01_LOName6 = squadmember.sm01_LOName5 + offset_in_sm;
 
-                    squadmember.sm02_LOName1 = first_LOName2;
+                    squadmember.sm02_LOName1 = squadmember.sm01_LOName1 + offset_out;
                     squadmember.sm02_LOName2 = squadmember.sm02_LOName1 + offset_in_sm;
                     squadmember.sm02_LOName3 = squadmember.sm02_LOName2 + offset_in_sm;
                     squadmember.sm02_LOName4 = squadmember.sm02_LOName3 + offset_in_sm;
                     squadmember.sm02_LOName5 = squadmember.sm02_LOName4 + offset_in_sm;
                     squadmember.sm02_LOName6 = squadmember.sm02_LOName5 + offset_in_sm;
 
-                    squadmember.sm03_LOName1 = first_LOName3;
+                    squadmember.sm03_LOName1 = squadmember.sm02_LOName1 + offset_out;
                     squadmember.sm03_LOName2 = squadmember.sm03_LOName1 + offset_in_sm;
                     squadmember.sm03_LOName3 = squadmember.sm03_LOName2 + offset_in_sm;
                     squadmember.sm03_LOName4 = squadmember.sm03_LOName3 + offset_in_sm;
                     squadmember.sm03_LOName5 = squadmember.sm03_LOName4 + offset_in_sm;
                     squadmember.sm03_LOName6 = squadmember.sm03_LOName5 + offset_in_sm;
 
-                    squadmember.sm04_LOName1 = first_LOName4;
+                    squadmember.sm04_LOName1 = squadmember.sm03_LOName1 + offset_out;
                     squadmember.sm04_LOName2 = squadmember.sm04_LOName1 + offset_in_sm;
                     squadmember.sm04_LOName3 = squadmember.sm04_LOName2 + offset_in_sm;
                     squadmember.sm04_LOName4 = squadmember.sm04_LOName3 + offset_in_sm;
                     squadmember.sm04_LOName5 = squadmember.sm04_LOName4 + offset_in_sm;
                     squadmember.sm04_LOName6 = squadmember.sm04_LOName5 + offset_in_sm;
 
-                    squadmember.sm05_LOName1 = first_LOName5;
+                    squadmember.sm05_LOName1 = squadmember.sm04_LOName1 + offset_out;
                     squadmember.sm05_LOName2 = squadmember.sm05_LOName1 + offset_in_sm;
                     squadmember.sm05_LOName3 = squadmember.sm05_LOName2 + offset_in_sm;
                     squadmember.sm05_LOName4 = squadmember.sm05_LOName3 + offset_in_sm;
                     squadmember.sm05_LOName5 = squadmember.sm05_LOName4 + offset_in_sm;
                     squadmember.sm05_LOName6 = squadmember.sm05_LOName5 + offset_in_sm;
 
-                    squadmember.sm06_LOName1 = first_LOName6;
+                    squadmember.sm06_LOName1 = squadmember.sm05_LOName1 + offset_out;
                     squadmember.sm06_LOName2 = squadmember.sm06_LOName1 + offset_in_sm;
                     squadmember.sm06_LOName3 = squadmember.sm06_LOName2 + offset_in_sm;
                     squadmember.sm06_LOName4 = squadmember.sm06_LOName3 + offset_in_sm;
                     squadmember.sm06_LOName5 = squadmember.sm06_LOName4 + offset_in_sm;
                     squadmember.sm06_LOName6 = squadmember.sm06_LOName5 + offset_in_sm;
 
-                    squadmember.sm07_LOName1 = first_LOName7;
+                    squadmember.sm07_LOName1 = squadmember.sm06_LOName1 + offset_out;
                     squadmember.sm07_LOName2 = squadmember.sm07_LOName1 + offset_in_sm;
                     squadmember.sm07_LOName3 = squadmember.sm07_LOName2 + offset_in_sm;
                     squadmember.sm07_LOName4 = squadmember.sm07_LOName3 + offset_in_sm;
                     squadmember.sm07_LOName5 = squadmember.sm07_LOName4 + offset_in_sm;
                     squadmember.sm07_LOName6 = squadmember.sm07_LOName5 + offset_in_sm;
 
-                    squadmember.sm08_LOName1 = first_LOName8;
+                    squadmember.sm08_LOName1 = squadmember.sm07_LOName1 + offset_out;
                     squadmember.sm08_LOName2 = squadmember.sm08_LOName1 + offset_in_sm;
                     squadmember.sm08_LOName3 = squadmember.sm08_LOName2 + offset_in_sm;
                     squadmember.sm08_LOName4 = squadmember.sm08_LOName3 + offset_in_sm;
                     squadmember.sm08_LOName5 = squadmember.sm08_LOName4 + offset_in_sm;
                     squadmember.sm08_LOName6 = squadmember.sm08_LOName5 + offset_in_sm;
 
-                    squadmember.sm09_LOName1 = first_LOName9;
+                    squadmember.sm09_LOName1 = squadmember.sm08_LOName1 + offset_out;
                     squadmember.sm09_LOName2 = squadmember.sm09_LOName1 + offset_in_sm;
                     squadmember.sm09_LOName3 = squadmember.sm09_LOName2 + offset_in_sm;
                     squadmember.sm09_LOName4 = squadmember.sm09_LOName3 + offset_in_sm;
                     squadmember.sm09_LOName5 = squadmember.sm09_LOName4 + offset_in_sm;
                     squadmember.sm09_LOName6 = squadmember.sm09_LOName5 + offset_in_sm;
 
-                    squadmember.sm10_LOName1 = first_LOName10;
+                    squadmember.sm10_LOName1 = squadmember.sm09_LOName1 + offset_out;
                     squadmember.sm10_LOName2 = squadmember.sm10_LOName1 + offset_in_sm;
                     squadmember.sm10_LOName3 = squadmember.sm10_LOName2 + offset_in_sm;
                     squadmember.sm10_LOName4 = squadmember.sm10_LOName3 + offset_in_sm;
@@ -711,63 +711,63 @@ namespace CoDGhostMaverick
                     squadmember.sm01_LO5_Weapon = squadmember.sm01_LO4_Weapon + offset_in_sm;
                     squadmember.sm01_LO6_Weapon = squadmember.sm01_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm02_LO1_Weapon = first_LOWeapon2;
+                    squadmember.sm02_LO1_Weapon = squadmember.sm01_LO1_Weapon + offset_out;
                     squadmember.sm02_LO2_Weapon = squadmember.sm02_LO1_Weapon + offset_in_sm;
                     squadmember.sm02_LO3_Weapon = squadmember.sm02_LO2_Weapon + offset_in_sm;
                     squadmember.sm02_LO4_Weapon = squadmember.sm02_LO3_Weapon + offset_in_sm;
                     squadmember.sm02_LO5_Weapon = squadmember.sm02_LO4_Weapon + offset_in_sm;
                     squadmember.sm02_LO6_Weapon = squadmember.sm02_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm03_LO1_Weapon = first_LOWeapon3;
+                    squadmember.sm03_LO1_Weapon = squadmember.sm02_LO1_Weapon + offset_out;
                     squadmember.sm03_LO2_Weapon = squadmember.sm03_LO1_Weapon + offset_in_sm;
                     squadmember.sm03_LO3_Weapon = squadmember.sm03_LO2_Weapon + offset_in_sm;
                     squadmember.sm03_LO4_Weapon = squadmember.sm03_LO3_Weapon + offset_in_sm;
                     squadmember.sm03_LO5_Weapon = squadmember.sm03_LO4_Weapon + offset_in_sm;
                     squadmember.sm03_LO6_Weapon = squadmember.sm03_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon = first_LOWeapon4;
+                    squadmember.sm04_LO1_Weapon = squadmember.sm03_LO1_Weapon + offset_out;
                     squadmember.sm04_LO2_Weapon = squadmember.sm04_LO1_Weapon + offset_in_sm;
                     squadmember.sm04_LO3_Weapon = squadmember.sm04_LO2_Weapon + offset_in_sm;
                     squadmember.sm04_LO4_Weapon = squadmember.sm04_LO3_Weapon + offset_in_sm;
                     squadmember.sm04_LO5_Weapon = squadmember.sm04_LO4_Weapon + offset_in_sm;
                     squadmember.sm04_LO6_Weapon = squadmember.sm04_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm05_LO1_Weapon = first_LOWeapon5;
+                    squadmember.sm05_LO1_Weapon = squadmember.sm04_LO1_Weapon + offset_out;
                     squadmember.sm05_LO2_Weapon = squadmember.sm05_LO1_Weapon + offset_in_sm;
                     squadmember.sm05_LO3_Weapon = squadmember.sm05_LO2_Weapon + offset_in_sm;
                     squadmember.sm05_LO4_Weapon = squadmember.sm05_LO3_Weapon + offset_in_sm;
                     squadmember.sm05_LO5_Weapon = squadmember.sm05_LO4_Weapon + offset_in_sm;
                     squadmember.sm05_LO6_Weapon = squadmember.sm05_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm06_LO1_Weapon = first_LOWeapon6;
+                    squadmember.sm06_LO1_Weapon = squadmember.sm05_LO1_Weapon + offset_out;
                     squadmember.sm06_LO2_Weapon = squadmember.sm06_LO1_Weapon + offset_in_sm;
                     squadmember.sm06_LO3_Weapon = squadmember.sm06_LO2_Weapon + offset_in_sm;
                     squadmember.sm06_LO4_Weapon = squadmember.sm06_LO3_Weapon + offset_in_sm;
                     squadmember.sm06_LO5_Weapon = squadmember.sm06_LO4_Weapon + offset_in_sm;
                     squadmember.sm06_LO6_Weapon = squadmember.sm06_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm07_LO1_Weapon = first_LOWeapon7;
+                    squadmember.sm07_LO1_Weapon = squadmember.sm06_LO1_Weapon + offset_out;
                     squadmember.sm07_LO2_Weapon = squadmember.sm07_LO1_Weapon + offset_in_sm;
                     squadmember.sm07_LO3_Weapon = squadmember.sm07_LO2_Weapon + offset_in_sm;
                     squadmember.sm07_LO4_Weapon = squadmember.sm07_LO3_Weapon + offset_in_sm;
                     squadmember.sm07_LO5_Weapon = squadmember.sm07_LO4_Weapon + offset_in_sm;
                     squadmember.sm07_LO6_Weapon = squadmember.sm07_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm08_LO1_Weapon = first_LOWeapon8;
+                    squadmember.sm08_LO1_Weapon = squadmember.sm07_LO1_Weapon + offset_out;
                     squadmember.sm08_LO2_Weapon = squadmember.sm08_LO1_Weapon + offset_in_sm;
                     squadmember.sm08_LO3_Weapon = squadmember.sm08_LO2_Weapon + offset_in_sm;
                     squadmember.sm08_LO4_Weapon = squadmember.sm08_LO3_Weapon + offset_in_sm;
                     squadmember.sm08_LO5_Weapon = squadmember.sm08_LO4_Weapon + offset_in_sm;
                     squadmember.sm08_LO6_Weapon = squadmember.sm08_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm09_LO1_Weapon = first_LOWeapon9;
+                    squadmember.sm09_LO1_Weapon = squadmember.sm08_LO1_Weapon + offset_out;
                     squadmember.sm09_LO2_Weapon = squadmember.sm09_LO1_Weapon + offset_in_sm;
                     squadmember.sm09_LO3_Weapon = squadmember.sm09_LO2_Weapon + offset_in_sm;
                     squadmember.sm09_LO4_Weapon = squadmember.sm09_LO3_Weapon + offset_in_sm;
                     squadmember.sm09_LO5_Weapon = squadmember.sm09_LO4_Weapon + offset_in_sm;
                     squadmember.sm09_LO6_Weapon = squadmember.sm09_LO5_Weapon + offset_in_sm;
 
-                    squadmember.sm10_LO1_Weapon = first_LOWeapon10;
+                    squadmember.sm10_LO1_Weapon = squadmember.sm09_LO1_Weapon + offset_out;
                     squadmember.sm10_LO2_Weapon = squadmember.sm10_LO1_Weapon + offset_in_sm;
                     squadmember.sm10_LO3_Weapon = squadmember.sm10_LO2_Weapon + offset_in_sm;
                     squadmember.sm10_LO4_Weapon = squadmember.sm10_LO3_Weapon + offset_in_sm;
@@ -856,63 +856,63 @@ namespace CoDGhostMaverick
                     squadmember.sm01_LO5_Weapon_at1 = squadmember.sm01_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm01_LO6_Weapon_at1 = squadmember.sm01_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm02_LO1_Weapon_at1 = first_LOWeapon1AT2;
+                    squadmember.sm02_LO1_Weapon_at1 = squadmember.sm01_LO1_Weapon_at1 + offset_out;
                     squadmember.sm02_LO2_Weapon_at1 = squadmember.sm02_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm02_LO3_Weapon_at1 = squadmember.sm02_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm02_LO4_Weapon_at1 = squadmember.sm02_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm02_LO5_Weapon_at1 = squadmember.sm02_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm02_LO6_Weapon_at1 = squadmember.sm02_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm03_LO1_Weapon_at1 = first_LOWeapon1AT3;
+                    squadmember.sm03_LO1_Weapon_at1 = squadmember.sm02_LO1_Weapon_at1 + offset_out;
                     squadmember.sm03_LO2_Weapon_at1 = squadmember.sm03_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm03_LO3_Weapon_at1 = squadmember.sm03_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm03_LO4_Weapon_at1 = squadmember.sm03_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm03_LO5_Weapon_at1 = squadmember.sm03_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm03_LO6_Weapon_at1 = squadmember.sm03_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon_at1 = first_LOWeapon1AT4;
+                    squadmember.sm04_LO1_Weapon_at1 = squadmember.sm03_LO1_Weapon_at1 + offset_out;
                     squadmember.sm04_LO2_Weapon_at1 = squadmember.sm04_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm04_LO3_Weapon_at1 = squadmember.sm04_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm04_LO4_Weapon_at1 = squadmember.sm04_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm04_LO5_Weapon_at1 = squadmember.sm04_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm04_LO6_Weapon_at1 = squadmember.sm04_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon_at1 = first_LOWeapon1AT5;
+                    squadmember.sm04_LO1_Weapon_at1 = squadmember.sm04_LO1_Weapon_at1 + offset_out;
                     squadmember.sm05_LO2_Weapon_at1 = squadmember.sm05_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm05_LO3_Weapon_at1 = squadmember.sm05_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm05_LO4_Weapon_at1 = squadmember.sm05_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm05_LO5_Weapon_at1 = squadmember.sm05_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm05_LO6_Weapon_at1 = squadmember.sm05_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm06_LO1_Weapon_at1 = first_LOWeapon1AT6;
+                    squadmember.sm06_LO1_Weapon_at1 = squadmember.sm05_LO1_Weapon_at1 + offset_out;
                     squadmember.sm06_LO2_Weapon_at1 = squadmember.sm06_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm06_LO3_Weapon_at1 = squadmember.sm06_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm06_LO4_Weapon_at1 = squadmember.sm06_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm06_LO5_Weapon_at1 = squadmember.sm06_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm06_LO6_Weapon_at1 = squadmember.sm06_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm07_LO1_Weapon_at1 = first_LOWeapon1AT7;
+                    squadmember.sm07_LO1_Weapon_at1 = squadmember.sm06_LO1_Weapon_at1 + offset_out;
                     squadmember.sm07_LO2_Weapon_at1 = squadmember.sm07_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm07_LO3_Weapon_at1 = squadmember.sm07_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm07_LO4_Weapon_at1 = squadmember.sm07_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm07_LO5_Weapon_at1 = squadmember.sm07_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm07_LO6_Weapon_at1 = squadmember.sm07_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm08_LO1_Weapon_at1 = first_LOWeapon1AT8;
+                    squadmember.sm08_LO1_Weapon_at1 = squadmember.sm07_LO1_Weapon_at1 + offset_out;
                     squadmember.sm08_LO2_Weapon_at1 = squadmember.sm08_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm08_LO3_Weapon_at1 = squadmember.sm08_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm08_LO4_Weapon_at1 = squadmember.sm08_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm08_LO5_Weapon_at1 = squadmember.sm08_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm08_LO6_Weapon_at1 = squadmember.sm08_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm09_LO1_Weapon_at1 = first_LOWeapon1AT9;
+                    squadmember.sm09_LO1_Weapon_at1 = squadmember.sm08_LO1_Weapon_at1 + offset_out;
                     squadmember.sm09_LO2_Weapon_at1 = squadmember.sm09_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm09_LO3_Weapon_at1 = squadmember.sm09_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm09_LO4_Weapon_at1 = squadmember.sm09_LO3_Weapon_at1 + offset_in_sm;
                     squadmember.sm09_LO5_Weapon_at1 = squadmember.sm09_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm09_LO6_Weapon_at1 = squadmember.sm09_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm10_LO1_Weapon_at1 = first_LOWeapon1AT10;
+                    squadmember.sm10_LO1_Weapon_at1 = squadmember.sm09_LO1_Weapon_at1 + offset_out;
                     squadmember.sm10_LO2_Weapon_at1 = squadmember.sm10_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm10_LO3_Weapon_at1 = squadmember.sm10_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm10_LO4_Weapon_at1 = squadmember.sm10_LO3_Weapon_at1 + offset_in_sm;
@@ -928,63 +928,63 @@ namespace CoDGhostMaverick
                     squadmember.sm01_LO5_Weapon_at2 = squadmember.sm01_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm01_LO6_Weapon_at2 = squadmember.sm01_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm02_LO1_Weapon_at2 = first_LOWeapon2AT2;
+                    squadmember.sm02_LO1_Weapon_at2 = squadmember.sm01_LO1_Weapon_at2 + offset_out;
                     squadmember.sm02_LO2_Weapon_at2 = squadmember.sm02_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm02_LO3_Weapon_at2 = squadmember.sm02_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm02_LO4_Weapon_at2 = squadmember.sm02_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm02_LO5_Weapon_at2 = squadmember.sm02_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm02_LO6_Weapon_at2 = squadmember.sm02_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm03_LO1_Weapon_at2 = first_LOWeapon2AT3;
+                    squadmember.sm03_LO1_Weapon_at2 = squadmember.sm02_LO1_Weapon_at2 + offset_out;
                     squadmember.sm03_LO2_Weapon_at2 = squadmember.sm03_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm03_LO3_Weapon_at2 = squadmember.sm03_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm03_LO4_Weapon_at2 = squadmember.sm03_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm03_LO5_Weapon_at2 = squadmember.sm03_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm03_LO6_Weapon_at2 = squadmember.sm03_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon_at2 = first_LOWeapon2AT4;
+                    squadmember.sm04_LO1_Weapon_at2 = squadmember.sm03_LO1_Weapon_at2 + offset_out;
                     squadmember.sm04_LO2_Weapon_at2 = squadmember.sm04_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm04_LO3_Weapon_at2 = squadmember.sm04_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm04_LO4_Weapon_at2 = squadmember.sm04_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm04_LO5_Weapon_at2 = squadmember.sm04_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm04_LO6_Weapon_at2 = squadmember.sm04_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon_at2 = first_LOWeapon2AT5;
+                    squadmember.sm04_LO1_Weapon_at2 = squadmember.sm04_LO1_Weapon_at2 + offset_out;
                     squadmember.sm05_LO2_Weapon_at2 = squadmember.sm05_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm05_LO3_Weapon_at2 = squadmember.sm05_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm05_LO4_Weapon_at2 = squadmember.sm05_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm05_LO5_Weapon_at2 = squadmember.sm05_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm05_LO6_Weapon_at2 = squadmember.sm05_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm06_LO1_Weapon_at2 = first_LOWeapon2AT6;
+                    squadmember.sm06_LO1_Weapon_at2 = squadmember.sm05_LO1_Weapon_at2 + offset_out;
                     squadmember.sm06_LO2_Weapon_at2 = squadmember.sm06_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm06_LO3_Weapon_at2 = squadmember.sm06_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm06_LO4_Weapon_at2 = squadmember.sm06_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm06_LO5_Weapon_at2 = squadmember.sm06_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm06_LO6_Weapon_at2 = squadmember.sm06_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm07_LO1_Weapon_at2 = first_LOWeapon2AT7;
+                    squadmember.sm07_LO1_Weapon_at2 = squadmember.sm06_LO1_Weapon_at2 + offset_out;
                     squadmember.sm07_LO2_Weapon_at2 = squadmember.sm07_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm07_LO3_Weapon_at2 = squadmember.sm07_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm07_LO4_Weapon_at2 = squadmember.sm07_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm07_LO5_Weapon_at2 = squadmember.sm07_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm07_LO6_Weapon_at2 = squadmember.sm07_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm08_LO1_Weapon_at2 = first_LOWeapon2AT8;
+                    squadmember.sm08_LO1_Weapon_at2 = squadmember.sm07_LO1_Weapon_at2 + offset_out;
                     squadmember.sm08_LO2_Weapon_at2 = squadmember.sm08_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm08_LO3_Weapon_at2 = squadmember.sm08_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm08_LO4_Weapon_at2 = squadmember.sm08_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm08_LO5_Weapon_at2 = squadmember.sm08_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm08_LO6_Weapon_at2 = squadmember.sm08_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm09_LO1_Weapon_at2 = first_LOWeapon2AT9;
+                    squadmember.sm09_LO1_Weapon_at2 = squadmember.sm08_LO1_Weapon_at2 + offset_out;
                     squadmember.sm09_LO2_Weapon_at2 = squadmember.sm09_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm09_LO3_Weapon_at2 = squadmember.sm09_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm09_LO4_Weapon_at2 = squadmember.sm09_LO3_Weapon_at2 + offset_in_sm;
                     squadmember.sm09_LO5_Weapon_at2 = squadmember.sm09_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm09_LO6_Weapon_at2 = squadmember.sm09_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm10_LO1_Weapon_at2 = first_LOWeapon2AT10;
+                    squadmember.sm10_LO1_Weapon_at2 = squadmember.sm09_LO1_Weapon_at2 + offset_out;
                     squadmember.sm10_LO2_Weapon_at2 = squadmember.sm10_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm10_LO3_Weapon_at2 = squadmember.sm10_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm10_LO4_Weapon_at2 = squadmember.sm10_LO3_Weapon_at2 + offset_in_sm;
@@ -1000,63 +1000,63 @@ namespace CoDGhostMaverick
                     squadmember.sm01_LO5_Weapon_camo = squadmember.sm01_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm01_LO6_Weapon_camo = squadmember.sm01_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm02_LO1_Weapon_camo = first_LO1camo2;
+                    squadmember.sm02_LO1_Weapon_camo = squadmember.sm01_LO1_Weapon_camo + offset_out;
                     squadmember.sm02_LO2_Weapon_camo = squadmember.sm02_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm02_LO3_Weapon_camo = squadmember.sm02_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm02_LO4_Weapon_camo = squadmember.sm02_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm02_LO5_Weapon_camo = squadmember.sm02_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm02_LO6_Weapon_camo = squadmember.sm02_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm03_LO1_Weapon_camo = first_LO1camo3;
+                    squadmember.sm03_LO1_Weapon_camo = squadmember.sm02_LO1_Weapon_camo + offset_out;
                     squadmember.sm03_LO2_Weapon_camo = squadmember.sm03_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm03_LO3_Weapon_camo = squadmember.sm03_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm03_LO4_Weapon_camo = squadmember.sm03_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm03_LO5_Weapon_camo = squadmember.sm03_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm03_LO6_Weapon_camo = squadmember.sm03_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon_camo = first_LO1camo4;
+                    squadmember.sm04_LO1_Weapon_camo = squadmember.sm03_LO1_Weapon_camo + offset_out;
                     squadmember.sm04_LO2_Weapon_camo = squadmember.sm04_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm04_LO3_Weapon_camo = squadmember.sm04_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm04_LO4_Weapon_camo = squadmember.sm04_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm04_LO5_Weapon_camo = squadmember.sm04_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm04_LO6_Weapon_camo = squadmember.sm04_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm05_LO1_Weapon_camo = first_LO1camo5;
+                    squadmember.sm05_LO1_Weapon_camo = squadmember.sm04_LO1_Weapon_camo + offset_out;
                     squadmember.sm05_LO2_Weapon_camo = squadmember.sm05_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm05_LO3_Weapon_camo = squadmember.sm05_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm05_LO4_Weapon_camo = squadmember.sm05_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm05_LO5_Weapon_camo = squadmember.sm05_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm05_LO6_Weapon_camo = squadmember.sm05_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm06_LO1_Weapon_camo = first_LO1camo6;
+                    squadmember.sm06_LO1_Weapon_camo = squadmember.sm05_LO1_Weapon_camo + offset_out;
                     squadmember.sm06_LO2_Weapon_camo = squadmember.sm06_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm06_LO3_Weapon_camo = squadmember.sm06_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm06_LO4_Weapon_camo = squadmember.sm06_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm06_LO5_Weapon_camo = squadmember.sm06_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm06_LO6_Weapon_camo = squadmember.sm06_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm07_LO1_Weapon_camo = first_LO1camo7;
+                    squadmember.sm07_LO1_Weapon_camo = squadmember.sm06_LO1_Weapon_camo + offset_out;
                     squadmember.sm07_LO2_Weapon_camo = squadmember.sm07_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm07_LO3_Weapon_camo = squadmember.sm07_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm07_LO4_Weapon_camo = squadmember.sm07_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm07_LO5_Weapon_camo = squadmember.sm07_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm07_LO6_Weapon_camo = squadmember.sm07_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm08_LO1_Weapon_camo = first_LO1camo8;
+                    squadmember.sm08_LO1_Weapon_camo = squadmember.sm07_LO1_Weapon_camo + offset_out;
                     squadmember.sm08_LO2_Weapon_camo = squadmember.sm08_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm08_LO3_Weapon_camo = squadmember.sm08_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm08_LO4_Weapon_camo = squadmember.sm08_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm08_LO5_Weapon_camo = squadmember.sm08_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm08_LO6_Weapon_camo = squadmember.sm08_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm09_LO1_Weapon_camo = first_LO1camo9;
+                    squadmember.sm09_LO1_Weapon_camo = squadmember.sm08_LO1_Weapon_camo + offset_out;
                     squadmember.sm09_LO2_Weapon_camo = squadmember.sm09_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm09_LO3_Weapon_camo = squadmember.sm09_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm09_LO4_Weapon_camo = squadmember.sm09_LO3_Weapon_camo + offset_in_sm;
                     squadmember.sm09_LO5_Weapon_camo = squadmember.sm09_LO4_Weapon_camo + offset_in_sm;
                     squadmember.sm09_LO6_Weapon_camo = squadmember.sm09_LO5_Weapon_camo + offset_in_sm;
 
-                    squadmember.sm10_LO1_Weapon_camo = first_LO1camo10;
+                    squadmember.sm10_LO1_Weapon_camo = squadmember.sm09_LO1_Weapon_camo + offset_out;
                     squadmember.sm10_LO2_Weapon_camo = squadmember.sm10_LO1_Weapon_camo + offset_in_sm;
                     squadmember.sm10_LO3_Weapon_camo = squadmember.sm10_LO2_Weapon_camo + offset_in_sm;
                     squadmember.sm10_LO4_Weapon_camo = squadmember.sm10_LO3_Weapon_camo + offset_in_sm;
@@ -1500,12 +1500,31 @@ namespace CoDGhostMaverick
 
         private void camos(int num, Image pic)
         {
-            if (!camo_selected)
+            if (radioButton3.Checked)
             {
-                camo_selected = true;
-                ldt.camo = num;
-                pictureBox4.Image = pic;
-                groupBox4.Enabled = false; 
+                if (radioButton4.Checked)
+                {
+                    pictureBox6.Image = pic;
+                    ldt.camo = num;
+                }
+                else
+                {
+                    if (radioButton5.Checked)
+                    {
+                        pictureBox7.Image = pic;
+                        ldt.secondcamo = num;
+                    }
+                }
+            }
+            else
+            {
+                if (!camo_selected)
+                {
+                    camo_selected = true;
+                    ldt.camo = num;
+                    pictureBox4.Image = pic;
+                    groupBox4.Enabled = false;
+                }
             }
         }
 
@@ -1753,7 +1772,7 @@ namespace CoDGhostMaverick
 
         private void button56_Click(object sender, EventArgs e)
         {
-            label1.Text = "sq_mem = " + ldt.sq_mem.ToString() + "\r\n ldout = " + ldt.ldout + "\r\n weapon = " + ldt.weapon + "\r\n 1st attachment = " + ldt.fstat + "\r\n 2nd attachment = " + ldt.scndat + "\r\n camo = " + ldt.camo;
+            label1.Text = "sq_mem = " + ldt.sq_mem.ToString() + "\r\n ldout = " + ldt.ldout + "\r\n weapon = " + ldt.weapon + "\r\n 1st attachment = " + ldt.fstat + "\r\n 2nd attachment = " + ldt.scndat + "\r\n camo = " + ldt.camo+"\r\n 2nd camo"+ldt.secondcamo;
         }
 
         private void button55_Click(object sender, EventArgs e)
@@ -1773,177 +1792,192 @@ namespace CoDGhostMaverick
             if (ldt.sq_mem == 1)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm01_LO1_Weapon, squadmember.sm01_LO1_Weapon_at1, squadmember.sm01_LO1_Weapon_at2, squadmember.sm01_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm01_LO1_Weapon, squadmember.sm01_LO1_Weapon_at1, squadmember.sm01_LO1_Weapon_at2, squadmember.sm01_LO1_Weapon_camo, squadmember.sm01_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm01_LO2_Weapon, squadmember.sm01_LO2_Weapon_at1, squadmember.sm01_LO2_Weapon_at2, squadmember.sm01_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm01_LO2_Weapon, squadmember.sm01_LO2_Weapon_at1, squadmember.sm01_LO2_Weapon_at2, squadmember.sm01_LO2_Weapon_camo, squadmember.sm01_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm01_LO3_Weapon, squadmember.sm01_LO3_Weapon_at1, squadmember.sm01_LO3_Weapon_at2, squadmember.sm01_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm01_LO3_Weapon, squadmember.sm01_LO3_Weapon_at1, squadmember.sm01_LO3_Weapon_at2, squadmember.sm01_LO3_Weapon_camo, squadmember.sm01_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm01_LO4_Weapon, squadmember.sm01_LO4_Weapon_at1, squadmember.sm01_LO4_Weapon_at2, squadmember.sm01_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm01_LO4_Weapon, squadmember.sm01_LO4_Weapon_at1, squadmember.sm01_LO4_Weapon_at2, squadmember.sm01_LO4_Weapon_camo, squadmember.sm01_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm01_LO5_Weapon, squadmember.sm01_LO5_Weapon_at1, squadmember.sm01_LO5_Weapon_at2, squadmember.sm01_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm01_LO5_Weapon, squadmember.sm01_LO5_Weapon_at1, squadmember.sm01_LO5_Weapon_at2, squadmember.sm01_LO5_Weapon_camo, squadmember.sm01_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm01_LO6_Weapon, squadmember.sm01_LO6_Weapon_at1, squadmember.sm01_LO6_Weapon_at2, squadmember.sm01_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm01_LO6_Weapon, squadmember.sm01_LO6_Weapon_at1, squadmember.sm01_LO6_Weapon_at2, squadmember.sm01_LO6_Weapon_camo, squadmember.sm01_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 2)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm02_LO1_Weapon, squadmember.sm02_LO1_Weapon_at1, squadmember.sm02_LO1_Weapon_at2, squadmember.sm02_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm02_LO1_Weapon, squadmember.sm02_LO1_Weapon_at1, squadmember.sm02_LO1_Weapon_at2, squadmember.sm02_LO1_Weapon_camo, squadmember.sm02_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm02_LO2_Weapon, squadmember.sm02_LO2_Weapon_at1, squadmember.sm02_LO2_Weapon_at2, squadmember.sm02_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm02_LO2_Weapon, squadmember.sm02_LO2_Weapon_at1, squadmember.sm02_LO2_Weapon_at2, squadmember.sm02_LO2_Weapon_camo, squadmember.sm02_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm02_LO3_Weapon, squadmember.sm02_LO3_Weapon_at1, squadmember.sm02_LO3_Weapon_at2, squadmember.sm02_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm02_LO3_Weapon, squadmember.sm02_LO3_Weapon_at1, squadmember.sm02_LO3_Weapon_at2, squadmember.sm02_LO3_Weapon_camo, squadmember.sm02_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm02_LO4_Weapon, squadmember.sm02_LO4_Weapon_at1, squadmember.sm02_LO4_Weapon_at2, squadmember.sm02_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm02_LO4_Weapon, squadmember.sm02_LO4_Weapon_at1, squadmember.sm02_LO4_Weapon_at2, squadmember.sm02_LO4_Weapon_camo, squadmember.sm02_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm02_LO5_Weapon, squadmember.sm02_LO5_Weapon_at1, squadmember.sm02_LO5_Weapon_at2, squadmember.sm02_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm02_LO5_Weapon, squadmember.sm02_LO5_Weapon_at1, squadmember.sm02_LO5_Weapon_at2, squadmember.sm02_LO5_Weapon_camo, squadmember.sm02_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm02_LO6_Weapon, squadmember.sm02_LO6_Weapon_at1, squadmember.sm02_LO6_Weapon_at2, squadmember.sm02_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm02_LO6_Weapon, squadmember.sm02_LO6_Weapon_at1, squadmember.sm02_LO6_Weapon_at2, squadmember.sm02_LO6_Weapon_camo, squadmember.sm02_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 3)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm03_LO1_Weapon, squadmember.sm03_LO1_Weapon_at1, squadmember.sm03_LO1_Weapon_at2, squadmember.sm03_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm03_LO1_Weapon, squadmember.sm03_LO1_Weapon_at1, squadmember.sm03_LO1_Weapon_at2, squadmember.sm03_LO1_Weapon_camo, squadmember.sm03_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm03_LO2_Weapon, squadmember.sm03_LO2_Weapon_at1, squadmember.sm03_LO2_Weapon_at2, squadmember.sm03_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm03_LO2_Weapon, squadmember.sm03_LO2_Weapon_at1, squadmember.sm03_LO2_Weapon_at2, squadmember.sm03_LO2_Weapon_camo, squadmember.sm03_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm03_LO3_Weapon, squadmember.sm03_LO3_Weapon_at1, squadmember.sm03_LO3_Weapon_at2, squadmember.sm03_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm03_LO3_Weapon, squadmember.sm03_LO3_Weapon_at1, squadmember.sm03_LO3_Weapon_at2, squadmember.sm03_LO3_Weapon_camo, squadmember.sm03_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm03_LO4_Weapon, squadmember.sm03_LO4_Weapon_at1, squadmember.sm03_LO4_Weapon_at2, squadmember.sm03_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm03_LO4_Weapon, squadmember.sm03_LO4_Weapon_at1, squadmember.sm03_LO4_Weapon_at2, squadmember.sm03_LO4_Weapon_camo, squadmember.sm03_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm03_LO5_Weapon, squadmember.sm03_LO5_Weapon_at1, squadmember.sm03_LO5_Weapon_at2, squadmember.sm03_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm03_LO5_Weapon, squadmember.sm03_LO5_Weapon_at1, squadmember.sm03_LO5_Weapon_at2, squadmember.sm03_LO5_Weapon_camo, squadmember.sm03_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm03_LO6_Weapon, squadmember.sm03_LO6_Weapon_at1, squadmember.sm03_LO6_Weapon_at2, squadmember.sm03_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm03_LO6_Weapon, squadmember.sm03_LO6_Weapon_at1, squadmember.sm03_LO6_Weapon_at2, squadmember.sm03_LO6_Weapon_camo, squadmember.sm03_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 4)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm04_LO1_Weapon, squadmember.sm04_LO1_Weapon_at1, squadmember.sm04_LO1_Weapon_at2, squadmember.sm04_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm04_LO1_Weapon, squadmember.sm04_LO1_Weapon_at1, squadmember.sm04_LO1_Weapon_at2, squadmember.sm04_LO1_Weapon_camo, squadmember.sm04_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm04_LO2_Weapon, squadmember.sm04_LO2_Weapon_at1, squadmember.sm04_LO2_Weapon_at2, squadmember.sm04_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm04_LO2_Weapon, squadmember.sm04_LO2_Weapon_at1, squadmember.sm04_LO2_Weapon_at2, squadmember.sm04_LO2_Weapon_camo, squadmember.sm04_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm04_LO3_Weapon, squadmember.sm04_LO3_Weapon_at1, squadmember.sm04_LO3_Weapon_at2, squadmember.sm04_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm04_LO3_Weapon, squadmember.sm04_LO3_Weapon_at1, squadmember.sm04_LO3_Weapon_at2, squadmember.sm04_LO3_Weapon_camo, squadmember.sm04_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm04_LO4_Weapon, squadmember.sm04_LO4_Weapon_at1, squadmember.sm04_LO4_Weapon_at2, squadmember.sm04_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm04_LO4_Weapon, squadmember.sm04_LO4_Weapon_at1, squadmember.sm04_LO4_Weapon_at2, squadmember.sm04_LO4_Weapon_camo, squadmember.sm04_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm04_LO5_Weapon, squadmember.sm04_LO5_Weapon_at1, squadmember.sm04_LO5_Weapon_at2, squadmember.sm04_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm04_LO5_Weapon, squadmember.sm04_LO5_Weapon_at1, squadmember.sm04_LO5_Weapon_at2, squadmember.sm04_LO5_Weapon_camo, squadmember.sm04_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm04_LO6_Weapon, squadmember.sm04_LO6_Weapon_at1, squadmember.sm04_LO6_Weapon_at2, squadmember.sm04_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm04_LO6_Weapon, squadmember.sm04_LO6_Weapon_at1, squadmember.sm04_LO6_Weapon_at2, squadmember.sm04_LO6_Weapon_camo, squadmember.sm04_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 5)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm05_LO1_Weapon, squadmember.sm05_LO1_Weapon_at1, squadmember.sm05_LO1_Weapon_at2, squadmember.sm05_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm05_LO1_Weapon, squadmember.sm05_LO1_Weapon_at1, squadmember.sm05_LO1_Weapon_at2, squadmember.sm05_LO1_Weapon_camo, squadmember.sm05_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm05_LO2_Weapon, squadmember.sm05_LO2_Weapon_at1, squadmember.sm05_LO2_Weapon_at2, squadmember.sm05_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm05_LO2_Weapon, squadmember.sm05_LO2_Weapon_at1, squadmember.sm05_LO2_Weapon_at2, squadmember.sm05_LO2_Weapon_camo, squadmember.sm05_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm05_LO3_Weapon, squadmember.sm05_LO3_Weapon_at1, squadmember.sm05_LO3_Weapon_at2, squadmember.sm05_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm05_LO3_Weapon, squadmember.sm05_LO3_Weapon_at1, squadmember.sm05_LO3_Weapon_at2, squadmember.sm05_LO3_Weapon_camo, squadmember.sm05_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm05_LO4_Weapon, squadmember.sm05_LO4_Weapon_at1, squadmember.sm05_LO4_Weapon_at2, squadmember.sm05_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm05_LO4_Weapon, squadmember.sm05_LO4_Weapon_at1, squadmember.sm05_LO4_Weapon_at2, squadmember.sm05_LO4_Weapon_camo, squadmember.sm05_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm05_LO5_Weapon, squadmember.sm05_LO5_Weapon_at1, squadmember.sm05_LO5_Weapon_at2, squadmember.sm05_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm05_LO5_Weapon, squadmember.sm05_LO5_Weapon_at1, squadmember.sm05_LO5_Weapon_at2, squadmember.sm05_LO5_Weapon_camo, squadmember.sm05_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm05_LO6_Weapon, squadmember.sm05_LO6_Weapon_at1, squadmember.sm05_LO6_Weapon_at2, squadmember.sm05_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm05_LO6_Weapon, squadmember.sm05_LO6_Weapon_at1, squadmember.sm05_LO6_Weapon_at2, squadmember.sm05_LO6_Weapon_camo, squadmember.sm05_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 6)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm06_LO1_Weapon, squadmember.sm06_LO1_Weapon_at1, squadmember.sm06_LO1_Weapon_at2, squadmember.sm06_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm06_LO1_Weapon, squadmember.sm06_LO1_Weapon_at1, squadmember.sm06_LO1_Weapon_at2, squadmember.sm06_LO1_Weapon_camo, squadmember.sm06_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm06_LO2_Weapon, squadmember.sm06_LO2_Weapon_at1, squadmember.sm06_LO2_Weapon_at2, squadmember.sm06_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm06_LO2_Weapon, squadmember.sm06_LO2_Weapon_at1, squadmember.sm06_LO2_Weapon_at2, squadmember.sm06_LO2_Weapon_camo, squadmember.sm06_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm06_LO3_Weapon, squadmember.sm06_LO3_Weapon_at1, squadmember.sm06_LO3_Weapon_at2, squadmember.sm06_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm06_LO3_Weapon, squadmember.sm06_LO3_Weapon_at1, squadmember.sm06_LO3_Weapon_at2, squadmember.sm06_LO3_Weapon_camo, squadmember.sm06_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm06_LO4_Weapon, squadmember.sm06_LO4_Weapon_at1, squadmember.sm06_LO4_Weapon_at2, squadmember.sm06_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm06_LO4_Weapon, squadmember.sm06_LO4_Weapon_at1, squadmember.sm06_LO4_Weapon_at2, squadmember.sm06_LO4_Weapon_camo, squadmember.sm06_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm06_LO5_Weapon, squadmember.sm06_LO5_Weapon_at1, squadmember.sm06_LO5_Weapon_at2, squadmember.sm06_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm06_LO5_Weapon, squadmember.sm06_LO5_Weapon_at1, squadmember.sm06_LO5_Weapon_at2, squadmember.sm06_LO5_Weapon_camo, squadmember.sm06_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm06_LO6_Weapon, squadmember.sm06_LO6_Weapon_at1, squadmember.sm06_LO6_Weapon_at2, squadmember.sm06_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm06_LO6_Weapon, squadmember.sm06_LO6_Weapon_at1, squadmember.sm06_LO6_Weapon_at2, squadmember.sm06_LO6_Weapon_camo, squadmember.sm06_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 7)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm07_LO1_Weapon, squadmember.sm07_LO1_Weapon_at1, squadmember.sm07_LO1_Weapon_at2, squadmember.sm07_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm07_LO1_Weapon, squadmember.sm07_LO1_Weapon_at1, squadmember.sm07_LO1_Weapon_at2, squadmember.sm07_LO1_Weapon_camo, squadmember.sm07_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm07_LO2_Weapon, squadmember.sm07_LO2_Weapon_at1, squadmember.sm07_LO2_Weapon_at2, squadmember.sm07_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm07_LO2_Weapon, squadmember.sm07_LO2_Weapon_at1, squadmember.sm07_LO2_Weapon_at2, squadmember.sm07_LO2_Weapon_camo, squadmember.sm07_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm07_LO3_Weapon, squadmember.sm07_LO3_Weapon_at1, squadmember.sm07_LO3_Weapon_at2, squadmember.sm07_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm07_LO3_Weapon, squadmember.sm07_LO3_Weapon_at1, squadmember.sm07_LO3_Weapon_at2, squadmember.sm07_LO3_Weapon_camo, squadmember.sm07_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm07_LO4_Weapon, squadmember.sm07_LO4_Weapon_at1, squadmember.sm07_LO4_Weapon_at2, squadmember.sm07_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm07_LO4_Weapon, squadmember.sm07_LO4_Weapon_at1, squadmember.sm07_LO4_Weapon_at2, squadmember.sm07_LO4_Weapon_camo, squadmember.sm07_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm07_LO5_Weapon, squadmember.sm07_LO5_Weapon_at1, squadmember.sm07_LO5_Weapon_at2, squadmember.sm07_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm07_LO5_Weapon, squadmember.sm07_LO5_Weapon_at1, squadmember.sm07_LO5_Weapon_at2, squadmember.sm07_LO5_Weapon_camo, squadmember.sm07_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm07_LO6_Weapon, squadmember.sm07_LO6_Weapon_at1, squadmember.sm07_LO6_Weapon_at2, squadmember.sm07_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm07_LO6_Weapon, squadmember.sm07_LO6_Weapon_at1, squadmember.sm07_LO6_Weapon_at2, squadmember.sm07_LO6_Weapon_camo, squadmember.sm07_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 8)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm08_LO1_Weapon, squadmember.sm08_LO1_Weapon_at1, squadmember.sm08_LO1_Weapon_at2, squadmember.sm08_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm08_LO1_Weapon, squadmember.sm08_LO1_Weapon_at1, squadmember.sm08_LO1_Weapon_at2, squadmember.sm08_LO1_Weapon_camo, squadmember.sm08_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm08_LO2_Weapon, squadmember.sm08_LO2_Weapon_at1, squadmember.sm08_LO2_Weapon_at2, squadmember.sm08_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm08_LO2_Weapon, squadmember.sm08_LO2_Weapon_at1, squadmember.sm08_LO2_Weapon_at2, squadmember.sm08_LO2_Weapon_camo, squadmember.sm08_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm08_LO3_Weapon, squadmember.sm08_LO3_Weapon_at1, squadmember.sm08_LO3_Weapon_at2, squadmember.sm08_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm08_LO3_Weapon, squadmember.sm08_LO3_Weapon_at1, squadmember.sm08_LO3_Weapon_at2, squadmember.sm08_LO3_Weapon_camo, squadmember.sm08_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm08_LO4_Weapon, squadmember.sm08_LO4_Weapon_at1, squadmember.sm08_LO4_Weapon_at2, squadmember.sm08_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm08_LO4_Weapon, squadmember.sm08_LO4_Weapon_at1, squadmember.sm08_LO4_Weapon_at2, squadmember.sm08_LO4_Weapon_camo, squadmember.sm08_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm08_LO5_Weapon, squadmember.sm08_LO5_Weapon_at1, squadmember.sm08_LO5_Weapon_at2, squadmember.sm08_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm08_LO5_Weapon, squadmember.sm08_LO5_Weapon_at1, squadmember.sm08_LO5_Weapon_at2, squadmember.sm08_LO5_Weapon_camo, squadmember.sm08_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm08_LO6_Weapon, squadmember.sm08_LO6_Weapon_at1, squadmember.sm08_LO6_Weapon_at2, squadmember.sm08_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm08_LO6_Weapon, squadmember.sm08_LO6_Weapon_at1, squadmember.sm08_LO6_Weapon_at2, squadmember.sm08_LO6_Weapon_camo, squadmember.sm08_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 9)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm09_LO1_Weapon, squadmember.sm09_LO1_Weapon_at1, squadmember.sm09_LO1_Weapon_at2, squadmember.sm09_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm09_LO1_Weapon, squadmember.sm09_LO1_Weapon_at1, squadmember.sm09_LO1_Weapon_at2, squadmember.sm09_LO1_Weapon_camo, squadmember.sm09_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm09_LO2_Weapon, squadmember.sm09_LO2_Weapon_at1, squadmember.sm09_LO2_Weapon_at2, squadmember.sm09_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm09_LO2_Weapon, squadmember.sm09_LO2_Weapon_at1, squadmember.sm09_LO2_Weapon_at2, squadmember.sm09_LO2_Weapon_camo, squadmember.sm09_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm09_LO3_Weapon, squadmember.sm09_LO3_Weapon_at1, squadmember.sm09_LO3_Weapon_at2, squadmember.sm09_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm09_LO3_Weapon, squadmember.sm09_LO3_Weapon_at1, squadmember.sm09_LO3_Weapon_at2, squadmember.sm09_LO3_Weapon_camo, squadmember.sm09_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm09_LO4_Weapon, squadmember.sm09_LO4_Weapon_at1, squadmember.sm09_LO4_Weapon_at2, squadmember.sm09_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm09_LO4_Weapon, squadmember.sm09_LO4_Weapon_at1, squadmember.sm09_LO4_Weapon_at2, squadmember.sm09_LO4_Weapon_camo, squadmember.sm09_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm09_LO5_Weapon, squadmember.sm09_LO5_Weapon_at1, squadmember.sm09_LO5_Weapon_at2, squadmember.sm09_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm09_LO5_Weapon, squadmember.sm09_LO5_Weapon_at1, squadmember.sm09_LO5_Weapon_at2, squadmember.sm09_LO5_Weapon_camo, squadmember.sm09_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm09_LO6_Weapon, squadmember.sm09_LO6_Weapon_at1, squadmember.sm09_LO6_Weapon_at2, squadmember.sm09_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm09_LO6_Weapon, squadmember.sm09_LO6_Weapon_at1, squadmember.sm09_LO6_Weapon_at2, squadmember.sm09_LO6_Weapon_camo, squadmember.sm09_LO6_2ndWeapon_camo); }
             }
             if (ldt.sq_mem == 10)
             {
                 if (ldt.ldout == 1)
-                { set_weapon(squadmember.sm10_LO1_Weapon, squadmember.sm10_LO1_Weapon_at1, squadmember.sm10_LO1_Weapon_at2, squadmember.sm10_LO1_Weapon_camo); }
+                { set_weapon(squadmember.sm10_LO1_Weapon, squadmember.sm10_LO1_Weapon_at1, squadmember.sm10_LO1_Weapon_at2, squadmember.sm10_LO1_Weapon_camo, squadmember.sm10_LO1_2ndWeapon_camo); }
                 if (ldt.ldout == 2)
-                { set_weapon(squadmember.sm10_LO2_Weapon, squadmember.sm10_LO2_Weapon_at1, squadmember.sm10_LO2_Weapon_at2, squadmember.sm10_LO2_Weapon_camo); }
+                { set_weapon(squadmember.sm10_LO2_Weapon, squadmember.sm10_LO2_Weapon_at1, squadmember.sm10_LO2_Weapon_at2, squadmember.sm10_LO2_Weapon_camo, squadmember.sm10_LO2_2ndWeapon_camo); }
                 if (ldt.ldout == 3)
-                { set_weapon(squadmember.sm10_LO3_Weapon, squadmember.sm10_LO3_Weapon_at1, squadmember.sm10_LO3_Weapon_at2, squadmember.sm10_LO3_Weapon_camo); }
+                { set_weapon(squadmember.sm10_LO3_Weapon, squadmember.sm10_LO3_Weapon_at1, squadmember.sm10_LO3_Weapon_at2, squadmember.sm10_LO3_Weapon_camo, squadmember.sm10_LO3_2ndWeapon_camo); }
                 if (ldt.ldout == 4)
-                { set_weapon(squadmember.sm10_LO4_Weapon, squadmember.sm10_LO4_Weapon_at1, squadmember.sm10_LO4_Weapon_at2, squadmember.sm10_LO4_Weapon_camo); }
+                { set_weapon(squadmember.sm10_LO4_Weapon, squadmember.sm10_LO4_Weapon_at1, squadmember.sm10_LO4_Weapon_at2, squadmember.sm10_LO4_Weapon_camo, squadmember.sm10_LO4_2ndWeapon_camo); }
                 if (ldt.ldout == 5)
-                { set_weapon(squadmember.sm10_LO5_Weapon, squadmember.sm10_LO5_Weapon_at1, squadmember.sm10_LO5_Weapon_at2, squadmember.sm10_LO5_Weapon_camo); }
+                { set_weapon(squadmember.sm10_LO5_Weapon, squadmember.sm10_LO5_Weapon_at1, squadmember.sm10_LO5_Weapon_at2, squadmember.sm10_LO5_Weapon_camo, squadmember.sm10_LO5_2ndWeapon_camo); }
                 if (ldt.ldout == 6)
-                { set_weapon(squadmember.sm10_LO6_Weapon, squadmember.sm10_LO6_Weapon_at1, squadmember.sm10_LO6_Weapon_at2, squadmember.sm10_LO6_Weapon_camo); }
+                { set_weapon(squadmember.sm10_LO6_Weapon, squadmember.sm10_LO6_Weapon_at1, squadmember.sm10_LO6_Weapon_at2, squadmember.sm10_LO6_Weapon_camo, squadmember.sm10_LO6_2ndWeapon_camo); }
             }
 
 
         }
 
-        private void set_weapon(long weapon, long fst_at, long scnd_at, long camo)
+        private void set_weapon(long weapon, long fst_at, long scnd_at, long camo, long scndcamo)
         {
-
             restore_mem();
-            int val = Convert.ToInt16(ldt.weapon);
-            byte[] buf = new byte[1];
-            buf = BitConverter.GetBytes(val);
-            ghost.WriteByte(weapon, buf);
+            if (ghost.ProcHandle("iw6mp64_ship"))
+            {
+                if (radioButton3.Checked)
+                {
+                    int val = Convert.ToInt16(ldt.camo);
+                    byte[] buf = BitConverter.GetBytes(val);
+                    ghost.WriteByte(camo, buf);
 
-            val = Convert.ToInt16(ldt.fstat);
-            buf = BitConverter.GetBytes(val);
-            ghost.WriteByte(fst_at, buf);
+                    val = Convert.ToInt16(ldt.secondcamo);
+                    buf = BitConverter.GetBytes(val);
+                    ghost.WriteByte(scndcamo, buf);
+                }
+                else
+                {
+                    int val = Convert.ToInt16(ldt.weapon);
+                    byte[] buf = new byte[1];
+                    buf = BitConverter.GetBytes(val);
+                    ghost.WriteByte(weapon, buf);
 
-            val = Convert.ToInt16(ldt.scndat);
-            buf = BitConverter.GetBytes(val);
-            ghost.WriteByte(scnd_at, buf);
+                    val = Convert.ToInt16(ldt.fstat);
+                    buf = BitConverter.GetBytes(val);
+                    ghost.WriteByte(fst_at, buf);
 
-            val = Convert.ToInt16(ldt.camo);
-            buf = BitConverter.GetBytes(val);
-            ghost.WriteByte(camo, buf);
+                    val = Convert.ToInt16(ldt.scndat);
+                    buf = BitConverter.GetBytes(val);
+                    ghost.WriteByte(scnd_at, buf);
+
+                    val = Convert.ToInt16(ldt.camo);
+                    buf = BitConverter.GetBytes(val);
+                    ghost.WriteByte(camo, buf);
+                }
+            }
             fix_mem();
             memcheck();
         }
@@ -1962,8 +1996,14 @@ namespace CoDGhostMaverick
                 pictureBox2.Image = null;
                 pictureBox3.Image = null;
                 pictureBox4.Image = null;
+                pictureBox5.Image = null;
+                pictureBox6.Image = null;
+                pictureBox7.Image = null;
+                pictureBox8.Image = null;
                 groupBox2.Visible = false;
                 groupBox3.Visible = false;
+                groupBox13.Visible = true;
+                groupBox13.Location = new Point(12, 151);
                 button55.Enabled = false;
                 button54.Text = "Set camo to weapon ";
                 weapon_camo(); 
@@ -1974,8 +2014,13 @@ namespace CoDGhostMaverick
                 pictureBox2.Image = null;
                 pictureBox3.Image = null;
                 pictureBox4.Image = null;
+                pictureBox5.Image = null;
+                pictureBox6.Image = null;
+                pictureBox7.Image = null;
+                pictureBox8.Image = null;
                 groupBox2.Visible = true;
                 groupBox3.Visible = true;
+                groupBox13.Visible = false;
                 button55.Enabled = true;
                 button54.Text = "Give weapon to soldier";
             }
@@ -1998,16 +2043,45 @@ namespace CoDGhostMaverick
             }
             else { return; }
         }
+
         List<string> PrimaryWeapon = new List<string> { "35", "36", "37", "38", "39", "40", "42", "43", "44", "45", "46", "47",
-        "48","49","52","53","54","55","56","58","59","60","61","62","63","64","65","66","67","68","70"};
+        "48","49","53","54","55","56","58","57","59","60","61","62","63","64","65","66","67","68","70","87","89"};
+
         private void set_weapon_pic(byte[] buf1, byte[] buf2)
         {
             int id1 = BitConverter.ToInt16(buf1, 0);
+            if (PrimaryWeapon.Contains(id1.ToString()))
+            {
+                groupBox14.Enabled = true;
+                radioButton4.Enabled = true;
+                pictureBox5.Image = (Image)Properties.Resources.ResourceManager.GetObject(id1.ToString());
+            }
+            else
+            {
+                groupBox14.Enabled = false;
+                radioButton4.Enabled = false;
+            }
+
             int id2 = BitConverter.ToInt16(buf2, 0);
+            if(PrimaryWeapon.Contains(id2.ToString()))
+            {
+                groupBox15.Enabled = true;
+                radioButton5.Enabled = true;
+                pictureBox8.Image = (Image)Properties.Resources.ResourceManager.GetObject(id2.ToString());
+            }
+            else
+            {
+                groupBox15.Enabled = false;
+                radioButton5.Enabled = false;
+            }
         }
 
         private void set_weapon_camo(int sm_num)
         {
+            pictureBox5.Image = null;
+            pictureBox6.Image = null;
+            pictureBox7.Image = null;
+            pictureBox8.Image = null;
             if (ghost.ProcHandle("iw6mp64_ship"))
             {
                 if (sm_num == 1)
@@ -2053,38 +2127,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm02_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm02_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2092,38 +2166,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm03_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm03_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2132,38 +2206,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm04_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm04_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2171,38 +2245,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm05_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm05_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2210,38 +2284,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm06_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm06_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2249,38 +2323,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm07_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm07_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2288,38 +2362,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm08_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm08_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2327,38 +2401,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm09_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm09_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
@@ -2366,38 +2440,38 @@ namespace CoDGhostMaverick
                 {
                     if (comboBox2.SelectedIndex == 0)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO1_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO1_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO1_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO1_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 1)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO2_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO2_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO2_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO2_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 2)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO3_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO3_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO3_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO3_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 3)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO4_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO4_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO4_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO4_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 4)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO5_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO5_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO5_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO5_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                     if (comboBox2.SelectedIndex == 5)
                     {
-                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO6_Weapon, 1);
-                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO6_2ndWeapon, 1);
+                        byte[] buf1 = ghost.ReadBytes(squadmember.sm10_LO6_Weapon, 2);
+                        byte[] buf2 = ghost.ReadBytes(squadmember.sm10_LO6_2ndWeapon, 2);
                         set_weapon_pic(buf1, buf2);
                     }
                 }
