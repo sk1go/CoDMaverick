@@ -877,7 +877,7 @@ namespace CoDGhostMaverick
                     squadmember.sm04_LO5_Weapon_at1 = squadmember.sm04_LO4_Weapon_at1 + offset_in_sm;
                     squadmember.sm04_LO6_Weapon_at1 = squadmember.sm04_LO5_Weapon_at1 + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon_at1 = squadmember.sm04_LO1_Weapon_at1 + offset_out;
+                    squadmember.sm05_LO1_Weapon_at1 = squadmember.sm04_LO1_Weapon_at1 + offset_out;
                     squadmember.sm05_LO2_Weapon_at1 = squadmember.sm05_LO1_Weapon_at1 + offset_in_sm;
                     squadmember.sm05_LO3_Weapon_at1 = squadmember.sm05_LO2_Weapon_at1 + offset_in_sm;
                     squadmember.sm05_LO4_Weapon_at1 = squadmember.sm05_LO3_Weapon_at1 + offset_in_sm;
@@ -949,7 +949,7 @@ namespace CoDGhostMaverick
                     squadmember.sm04_LO5_Weapon_at2 = squadmember.sm04_LO4_Weapon_at2 + offset_in_sm;
                     squadmember.sm04_LO6_Weapon_at2 = squadmember.sm04_LO5_Weapon_at2 + offset_in_sm;
 
-                    squadmember.sm04_LO1_Weapon_at2 = squadmember.sm04_LO1_Weapon_at2 + offset_out;
+                    squadmember.sm05_LO1_Weapon_at2 = squadmember.sm04_LO1_Weapon_at2 + offset_out;
                     squadmember.sm05_LO2_Weapon_at2 = squadmember.sm05_LO1_Weapon_at2 + offset_in_sm;
                     squadmember.sm05_LO3_Weapon_at2 = squadmember.sm05_LO2_Weapon_at2 + offset_in_sm;
                     squadmember.sm05_LO4_Weapon_at2 = squadmember.sm05_LO3_Weapon_at2 + offset_in_sm;
@@ -1502,19 +1502,19 @@ namespace CoDGhostMaverick
         {
             if (radioButton3.Checked)
             {
-                //if (radioButton4.Checked)
-                //{
+                if (radioButton4.Checked)
+                {
                     pictureBox6.Image = pic;
                     ldt.camo = num;
-                //}
-                //else
-                //{
-                //    if (radioButton5.Checked)
-                //    {
+                }
+                else
+                {
+                    if (radioButton5.Checked)
+                    {
                         pictureBox7.Image = pic;
                         ldt.secondcamo = num;
-                //    }
-                //}
+                    }
+                }
             }
             else
             {
@@ -2011,6 +2011,8 @@ namespace CoDGhostMaverick
                 groupBox3.Visible = false;
                 groupBox13.Visible = true;
                 groupBox13.Location = new Point(12, 151);
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
                 button55.Enabled = false;
                 button54.Text = "Set camo to weapon ";
                 weapon_camo(); 
@@ -2028,11 +2030,14 @@ namespace CoDGhostMaverick
                 groupBox2.Visible = true;
                 groupBox3.Visible = true;
                 groupBox13.Visible = false;
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
                 button55.Enabled = true;
                 button54.Text = "Give weapon to soldier";
             }
         }
-
+        List<string> PrimaryWeapon = new List<string> { "35", "36", "37", "38", "39", "40", "42", "43", "44", "45", "46", "47",
+        "48","49","53","54","55","56","58","57","59","60","61","62","63","64","65","66","67","68","70","87","89"};
         private void weapon_camo()
         {
             if (radioButton3.Checked)
@@ -2050,9 +2055,6 @@ namespace CoDGhostMaverick
             }
             else { return; }
         }
-
-        List<string> PrimaryWeapon = new List<string> { "35", "36", "37", "38", "39", "40", "42", "43", "44", "45", "46", "47",
-        "48","49","53","54","55","56","58","57","59","60","61","62","63","64","65","66","67","68","70","87","89"};
         
         private void showcamo(int id, int picturebox)
         { 
@@ -2376,11 +2378,17 @@ namespace CoDGhostMaverick
                 pictureBox5.Image = (Image)Properties.Resources.ResourceManager.GetObject(id1.ToString());
                 int picid1 = BitConverter.ToInt16(buf3, 0);
                 showcamo(picid1, 1);
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
+                ldt.camo = picid1;
             }
             else
             {
                 groupBox14.Enabled = false;
                 radioButton4.Enabled = false;
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
+                ldt.camo = 0;
             }
 
             int id2 = BitConverter.ToInt16(buf2, 0);
@@ -2391,11 +2399,17 @@ namespace CoDGhostMaverick
                 pictureBox8.Image = (Image)Properties.Resources.ResourceManager.GetObject(id2.ToString());
                 int picid2 = BitConverter.ToInt16(buf4, 0);
                 showcamo(picid2, 2);
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
+                ldt.secondcamo = picid2;
             }
             else
             {
                 groupBox15.Enabled = false;
                 radioButton5.Enabled = false;
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
+                ldt.secondcamo = 0;
             }
         }
 
